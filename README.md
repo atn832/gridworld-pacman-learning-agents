@@ -35,6 +35,11 @@ Learn using Q learning using epsilon greedy selection (picks the action that max
 python gridworld.py -a q -k 100
 ```
 
+With a simple feature extractor:
+```
+python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumGrid
+```
+
 ## Documentation
 
 Find the docs/ folder in the repository.
